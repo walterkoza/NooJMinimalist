@@ -1,0 +1,24 @@
+# NooJ V7
+# Dictionary properties' definition
+#
+# Language is: sp
+#
+# Special Characters: '_' '=' '|' ';' '#'
+#
+# Starting with V3, there is only ONE Dictionary Properties' Definition File per language;
+# it should always be named _properties.def and be saved in the "Lexical Analysis" folder
+#
+# List categories and properties associated with features
+#   Example: N_Number = singular | plural;
+# Special keyword: INFLECTION lists all inflectional features (used by variables $x$ALLF)
+#   Example: INFLECTION = masc | fem | Present | Futur;
+
+N_género = masc | fem | común;
+N_número = sg | pl;
+
+A_género = masc | fem | común;
+A_número = sg | pl;
+
+
+R_exig = exfem | exmasc | noex;
+R_chiq = n | a | v;
